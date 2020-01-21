@@ -8,11 +8,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/rancher/machine/libmachine/drivers"
-	"github.com/rancher/machine/libmachine/drivers/plugin/localbinary"
-	"github.com/rancher/machine/libmachine/drivers/rpc"
-	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/libmachine/version"
+	"github.com/hsartoris-bard/machine/libmachine/drivers"
+	"github.com/hsartoris-bard/machine/libmachine/drivers/plugin/localbinary"
+	"github.com/hsartoris-bard/machine/libmachine/drivers/rpc"
+	"github.com/hsartoris-bard/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/version"
 )
 
 var (

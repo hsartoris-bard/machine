@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/rancher/machine/libmachine/drivers"
-	"github.com/rancher/machine/libmachine/mcnflag"
+	"github.com/hsartoris-bard/machine/libmachine/drivers"
+	"github.com/hsartoris-bard/machine/libmachine/mcnflag"
 	"github.com/vmware/govmomi/vim25/types"
 )
 

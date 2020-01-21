@@ -15,8 +15,8 @@ import (
 
 	"errors"
 
-	"github.com/rancher/machine/libmachine/auth"
-	"github.com/rancher/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/auth"
+	"github.com/hsartoris-bard/machine/libmachine/log"
 )
 
 var defaultGenerator = NewX509CertGenerator()

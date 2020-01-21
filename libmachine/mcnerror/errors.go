@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/rancher/machine/libmachine/state"
+	"github.com/hsartoris-bard/machine/libmachine/state"
 )
 
 var (

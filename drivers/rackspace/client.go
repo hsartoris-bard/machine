@@ -5,9 +5,9 @@ import (
 
 	"github.com/rackspace/gophercloud"
 	"github.com/rackspace/gophercloud/rackspace"
-	"github.com/rancher/machine/drivers/openstack"
-	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/libmachine/version"
+	"github.com/hsartoris-bard/machine/drivers/openstack"
+	"github.com/hsartoris-bard/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/version"
 )
 
 func unsupportedOpErr(operation string) error {

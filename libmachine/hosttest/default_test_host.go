@@ -1,12 +1,12 @@
 package hosttest
 
 import (
-	"github.com/rancher/machine/drivers/none"
-	"github.com/rancher/machine/libmachine/auth"
-	"github.com/rancher/machine/libmachine/engine"
-	"github.com/rancher/machine/libmachine/host"
-	"github.com/rancher/machine/libmachine/swarm"
-	"github.com/rancher/machine/libmachine/version"
+	"github.com/hsartoris-bard/machine/drivers/none"
+	"github.com/hsartoris-bard/machine/libmachine/auth"
+	"github.com/hsartoris-bard/machine/libmachine/engine"
+	"github.com/hsartoris-bard/machine/libmachine/host"
+	"github.com/hsartoris-bard/machine/libmachine/swarm"
+	"github.com/hsartoris-bard/machine/libmachine/version"
 )
 
 const (

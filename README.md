@@ -11,7 +11,7 @@ This project is intended to be embedded and executed by the full [Rancher](https
 and the stand alone cli functionality will remain but the human use of it will not be the primary focus as we will expect
 inputs provided by other things like Terraform or UIs.
 
-Cli binaries can be found in our [Releases Pages](https://github.com/rancher/machine/releases)
+Cli binaries can be found in our [Releases Pages](https://github.com/hsartoris-bard/machine/releases)
 
 ## Issues
 

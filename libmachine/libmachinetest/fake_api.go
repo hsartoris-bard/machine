@@ -1,11 +1,11 @@
 package libmachinetest
 
 import (
-	"github.com/rancher/machine/libmachine"
-	"github.com/rancher/machine/libmachine/drivers"
-	"github.com/rancher/machine/libmachine/host"
-	"github.com/rancher/machine/libmachine/mcnerror"
-	"github.com/rancher/machine/libmachine/state"
+	"github.com/hsartoris-bard/machine/libmachine"
+	"github.com/hsartoris-bard/machine/libmachine/drivers"
+	"github.com/hsartoris-bard/machine/libmachine/host"
+	"github.com/hsartoris-bard/machine/libmachine/mcnerror"
+	"github.com/hsartoris-bard/machine/libmachine/state"
 )
 
 type FakeAPI struct {

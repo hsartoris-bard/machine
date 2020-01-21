@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rancher/machine/libmachine/auth"
-	"github.com/rancher/machine/libmachine/engine"
-	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/libmachine/mcndockerclient"
-	"github.com/rancher/machine/libmachine/swarm"
+	"github.com/hsartoris-bard/machine/libmachine/auth"
+	"github.com/hsartoris-bard/machine/libmachine/engine"
+	"github.com/hsartoris-bard/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/mcndockerclient"
+	"github.com/hsartoris-bard/machine/libmachine/swarm"
 	"github.com/samalba/dockerclient"
 )
 

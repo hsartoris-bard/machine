@@ -6,8 +6,8 @@ import (
 
 	"crypto/tls"
 
-	"github.com/rancher/machine/libmachine/auth"
-	"github.com/rancher/machine/libmachine/cert"
+	"github.com/hsartoris-bard/machine/libmachine/auth"
+	"github.com/hsartoris-bard/machine/libmachine/cert"
 	"github.com/stretchr/testify/assert"
 )
 

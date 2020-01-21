@@ -1,9 +1,9 @@
 package host
 
 import (
-	"github.com/rancher/machine/libmachine/auth"
-	"github.com/rancher/machine/libmachine/engine"
-	"github.com/rancher/machine/libmachine/swarm"
+	"github.com/hsartoris-bard/machine/libmachine/auth"
+	"github.com/hsartoris-bard/machine/libmachine/engine"
+	"github.com/hsartoris-bard/machine/libmachine/swarm"
 )
 
 // In the 0.1.0 => 0.2.0 transition, the JSON representation of

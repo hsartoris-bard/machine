@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/version"
+	"github.com/hsartoris-bard/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/version"
 	"github.com/stretchr/testify/assert"
 )
 

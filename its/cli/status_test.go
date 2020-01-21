@@ -3,7 +3,7 @@ package cli
 import (
 	"testing"
 
-	"github.com/rancher/machine/its"
+	"github.com/hsartoris-bard/machine/its"
 )
 
 func TestStatus(t *testing.T) {

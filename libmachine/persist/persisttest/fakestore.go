@@ -1,6 +1,6 @@
 package persisttest
 
-import "github.com/rancher/machine/libmachine/host"
+import "github.com/hsartoris-bard/machine/libmachine/host"
 
 type FakeStore struct {
 	Hosts                                           []*host.Host

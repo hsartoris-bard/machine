@@ -9,11 +9,11 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/rancher/machine/drivers/azure/azureutil"
-	"github.com/rancher/machine/libmachine/drivers"
-	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/libmachine/mcnflag"
-	"github.com/rancher/machine/libmachine/state"
+	"github.com/hsartoris-bard/machine/drivers/azure/azureutil"
+	"github.com/hsartoris-bard/machine/libmachine/drivers"
+	"github.com/hsartoris-bard/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/mcnflag"
+	"github.com/hsartoris-bard/machine/libmachine/state"
 
 	"github.com/Azure/azure-sdk-for-go/arm/storage"
 )

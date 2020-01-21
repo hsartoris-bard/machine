@@ -6,8 +6,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/rancher/machine/libmachine"
-	"github.com/rancher/machine/libmachine/mcndockerclient"
+	"github.com/hsartoris-bard/machine/libmachine"
+	"github.com/hsartoris-bard/machine/libmachine/mcndockerclient"
 )
 
 func cmdVersion(c CommandLine, api libmachine.API) error {

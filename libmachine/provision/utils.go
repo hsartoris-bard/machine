@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rancher/machine/libmachine/auth"
-	"github.com/rancher/machine/libmachine/cert"
-	"github.com/rancher/machine/libmachine/engine"
-	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/libmachine/mcnutils"
-	"github.com/rancher/machine/libmachine/provision/serviceaction"
+	"github.com/hsartoris-bard/machine/libmachine/auth"
+	"github.com/hsartoris-bard/machine/libmachine/cert"
+	"github.com/hsartoris-bard/machine/libmachine/engine"
+	"github.com/hsartoris-bard/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/mcnutils"
+	"github.com/hsartoris-bard/machine/libmachine/provision/serviceaction"
 )
 
 type DockerOptions struct {

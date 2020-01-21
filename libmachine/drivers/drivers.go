@@ -3,9 +3,9 @@ package drivers
 import (
 	"errors"
 
-	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/libmachine/mcnflag"
-	"github.com/rancher/machine/libmachine/state"
+	"github.com/hsartoris-bard/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/mcnflag"
+	"github.com/hsartoris-bard/machine/libmachine/state"
 )
 
 // Driver defines how a host is created and controlled. Different types of

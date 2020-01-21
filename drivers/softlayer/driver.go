@@ -8,11 +8,11 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/rancher/machine/libmachine/drivers"
-	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/libmachine/mcnflag"
-	"github.com/rancher/machine/libmachine/ssh"
-	"github.com/rancher/machine/libmachine/state"
+	"github.com/hsartoris-bard/machine/libmachine/drivers"
+	"github.com/hsartoris-bard/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/mcnflag"
+	"github.com/hsartoris-bard/machine/libmachine/ssh"
+	"github.com/hsartoris-bard/machine/libmachine/state"
 )
 
 const (

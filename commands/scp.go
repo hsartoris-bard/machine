@@ -7,8 +7,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/libmachine/persist"
+	"github.com/hsartoris-bard/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/persist"
 )
 
 var (

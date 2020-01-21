@@ -1,6 +1,6 @@
 package drivers
 
-import "github.com/rancher/machine/libmachine/mcnflag"
+import "github.com/hsartoris-bard/machine/libmachine/mcnflag"
 
 // CheckDriverOptions implements DriverOptions and is used to validate flag parsing
 type CheckDriverOptions struct {

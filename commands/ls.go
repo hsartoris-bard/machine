@@ -13,15 +13,15 @@ import (
 
 	"io"
 
-	"github.com/rancher/machine/libmachine"
-	"github.com/rancher/machine/libmachine/drivers"
-	"github.com/rancher/machine/libmachine/engine"
-	"github.com/rancher/machine/libmachine/host"
-	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/libmachine/mcndockerclient"
-	"github.com/rancher/machine/libmachine/persist"
-	"github.com/rancher/machine/libmachine/state"
-	"github.com/rancher/machine/libmachine/swarm"
+	"github.com/hsartoris-bard/machine/libmachine"
+	"github.com/hsartoris-bard/machine/libmachine/drivers"
+	"github.com/hsartoris-bard/machine/libmachine/engine"
+	"github.com/hsartoris-bard/machine/libmachine/host"
+	"github.com/hsartoris-bard/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/mcndockerclient"
+	"github.com/hsartoris-bard/machine/libmachine/persist"
+	"github.com/hsartoris-bard/machine/libmachine/state"
+	"github.com/hsartoris-bard/machine/libmachine/swarm"
 	"github.com/skarademir/naturalsort"
 )
 

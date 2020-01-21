@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/rancher/machine/drivers/fakedriver"
+	"github.com/hsartoris-bard/machine/drivers/fakedriver"
 	"github.com/stretchr/testify/assert"
 )
 

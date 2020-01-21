@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/rancher/machine/drivers/none"
-	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/libmachine/version"
+	"github.com/hsartoris-bard/machine/drivers/none"
+	"github.com/hsartoris-bard/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/version"
 )
 
 var (

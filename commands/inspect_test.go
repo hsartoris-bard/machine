@@ -3,9 +3,9 @@ package commands
 import (
 	"testing"
 
-	"github.com/rancher/machine/commands/commandstest"
-	"github.com/rancher/machine/libmachine"
-	"github.com/rancher/machine/libmachine/libmachinetest"
+	"github.com/hsartoris-bard/machine/commands/commandstest"
+	"github.com/hsartoris-bard/machine/libmachine"
+	"github.com/hsartoris-bard/machine/libmachine/libmachinetest"
 	"github.com/stretchr/testify/assert"
 )
 

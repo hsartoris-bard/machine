@@ -9,11 +9,11 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/rancher/machine/commands/mcndirs"
-	"github.com/rancher/machine/libmachine"
-	"github.com/rancher/machine/libmachine/check"
-	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/libmachine/shell"
+	"github.com/hsartoris-bard/machine/commands/mcndirs"
+	"github.com/hsartoris-bard/machine/libmachine"
+	"github.com/hsartoris-bard/machine/libmachine/check"
+	"github.com/hsartoris-bard/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/shell"
 )
 
 const (

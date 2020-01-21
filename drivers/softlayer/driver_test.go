@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rancher/machine/commands/commandstest"
-	"github.com/rancher/machine/commands/mcndirs"
-	"github.com/rancher/machine/libmachine/drivers"
+	"github.com/hsartoris-bard/machine/commands/commandstest"
+	"github.com/hsartoris-bard/machine/commands/mcndirs"
+	"github.com/hsartoris-bard/machine/libmachine/drivers"
 	"github.com/stretchr/testify/assert"
 )
 

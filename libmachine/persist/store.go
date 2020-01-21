@@ -1,7 +1,7 @@
 package persist
 
 import (
-	"github.com/rancher/machine/libmachine/host"
+	"github.com/hsartoris-bard/machine/libmachine/host"
 )
 
 type Store interface {

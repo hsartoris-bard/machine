@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"runtime/debug"
 
-	"github.com/rancher/machine/libmachine/drivers"
-	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/libmachine/mcnflag"
-	"github.com/rancher/machine/libmachine/state"
-	"github.com/rancher/machine/libmachine/version"
+	"github.com/hsartoris-bard/machine/libmachine/drivers"
+	"github.com/hsartoris-bard/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/mcnflag"
+	"github.com/hsartoris-bard/machine/libmachine/state"
+	"github.com/hsartoris-bard/machine/libmachine/version"
 )
 
 type Stacker interface {

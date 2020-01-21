@@ -5,8 +5,8 @@ import (
 
 	"flag"
 
-	"github.com/rancher/machine/commands/commandstest"
-	"github.com/rancher/machine/libmachine/mcnflag"
+	"github.com/hsartoris-bard/machine/commands/commandstest"
+	"github.com/hsartoris-bard/machine/libmachine/mcnflag"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,8 +3,8 @@ package host
 import (
 	"testing"
 
-	"github.com/rancher/machine/drivers/none"
-	"github.com/rancher/machine/libmachine/auth"
+	"github.com/hsartoris-bard/machine/drivers/none"
+	"github.com/hsartoris-bard/machine/libmachine/auth"
 	"github.com/stretchr/testify/assert"
 )
 

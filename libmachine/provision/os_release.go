@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/rancher/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/log"
 )
 
 // The /etc/os-release file contains operating system identification data

@@ -6,9 +6,9 @@ import (
 
 	"time"
 
-	"github.com/rancher/machine/libmachine"
-	"github.com/rancher/machine/libmachine/persist"
-	"github.com/rancher/machine/libmachine/state"
+	"github.com/hsartoris-bard/machine/libmachine"
+	"github.com/hsartoris-bard/machine/libmachine/persist"
+	"github.com/hsartoris-bard/machine/libmachine/state"
 )
 
 const (

@@ -3,7 +3,7 @@ package mcndockerclient
 import (
 	"fmt"
 
-	"github.com/rancher/machine/libmachine/cert"
+	"github.com/hsartoris-bard/machine/libmachine/cert"
 	"github.com/samalba/dockerclient"
 )
 

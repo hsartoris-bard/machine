@@ -3,8 +3,8 @@ package drivers
 import (
 	"fmt"
 
-	"github.com/rancher/machine/libmachine/mcnflag"
-	"github.com/rancher/machine/libmachine/state"
+	"github.com/hsartoris-bard/machine/libmachine/mcnflag"
+	"github.com/hsartoris-bard/machine/libmachine/state"
 )
 
 type DriverNotSupported struct {

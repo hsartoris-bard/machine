@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rancher/machine/drivers/driverutil"
-	"github.com/rancher/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/drivers/driverutil"
+	"github.com/hsartoris-bard/machine/libmachine/log"
 	raw "google.golang.org/api/compute/v1"
 
 	"errors"

@@ -3,7 +3,7 @@ package exoscale
 import (
 	"testing"
 
-	"github.com/rancher/machine/libmachine/drivers"
+	"github.com/hsartoris-bard/machine/libmachine/drivers"
 	"github.com/stretchr/testify/assert"
 )
 

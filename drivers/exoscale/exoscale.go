@@ -15,14 +15,14 @@ import (
 	"strings"
 
 	"github.com/exoscale/egoscale"
-	"github.com/rancher/machine/libmachine/drivers"
-	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/libmachine/mcnflag"
-	"github.com/rancher/machine/libmachine/mcnutils"
-	"github.com/rancher/machine/libmachine/state"
+	"github.com/hsartoris-bard/machine/libmachine/drivers"
+	"github.com/hsartoris-bard/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/mcnflag"
+	"github.com/hsartoris-bard/machine/libmachine/mcnutils"
+	"github.com/hsartoris-bard/machine/libmachine/state"
 )
 
-// Driver is the struct compatible with github.com/rancher/machine/libmachine/drivers.Driver interface
+// Driver is the struct compatible with github.com/hsartoris-bard/machine/libmachine/drivers.Driver interface
 type Driver struct {
 	*drivers.BaseDriver
 	URL              string

@@ -8,12 +8,12 @@ import (
 
 	"errors"
 
-	"github.com/rancher/machine/drivers/fakedriver"
-	"github.com/rancher/machine/libmachine/engine"
-	"github.com/rancher/machine/libmachine/host"
-	"github.com/rancher/machine/libmachine/mcndockerclient"
-	"github.com/rancher/machine/libmachine/state"
-	"github.com/rancher/machine/libmachine/swarm"
+	"github.com/hsartoris-bard/machine/drivers/fakedriver"
+	"github.com/hsartoris-bard/machine/libmachine/engine"
+	"github.com/hsartoris-bard/machine/libmachine/host"
+	"github.com/hsartoris-bard/machine/libmachine/mcndockerclient"
+	"github.com/hsartoris-bard/machine/libmachine/state"
+	"github.com/hsartoris-bard/machine/libmachine/swarm"
 	"github.com/stretchr/testify/assert"
 )
 

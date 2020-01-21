@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/rancher/machine/version"
+	"github.com/hsartoris-bard/machine/version"
 
 	"github.com/Azure/azure-sdk-for-go/arm/compute"
 	"github.com/Azure/azure-sdk-for-go/arm/network"

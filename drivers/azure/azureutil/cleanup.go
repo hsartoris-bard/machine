@@ -5,8 +5,8 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/arm/compute"
 	"github.com/Azure/azure-sdk-for-go/arm/network"
-	"github.com/rancher/machine/drivers/azure/logutil"
-	"github.com/rancher/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/drivers/azure/logutil"
+	"github.com/hsartoris-bard/machine/libmachine/log"
 )
 
 type cleanupResource interface {

@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 
 	"github.com/diskfs/go-diskfs/filesystem/iso9660"
-	"github.com/rancher/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/log"
 	"github.com/vmware/govmomi/object"
 	"github.com/vmware/govmomi/vim25/soap"
 	"github.com/vmware/govmomi/vim25/types"

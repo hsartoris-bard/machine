@@ -7,8 +7,8 @@ import (
 
 	"time"
 
-	"github.com/rancher/machine/libmachine/mcnutils"
-	"github.com/rancher/machine/libmachine/ssh"
+	"github.com/hsartoris-bard/machine/libmachine/mcnutils"
+	"github.com/hsartoris-bard/machine/libmachine/ssh"
 )
 
 // B2DUpdater describes the interactions with b2d.

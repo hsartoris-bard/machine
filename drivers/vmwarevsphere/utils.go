@@ -9,7 +9,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/rancher/machine/libmachine/log"
+	"github.com/hsartoris-bard/machine/libmachine/log"
 	"github.com/vmware/govmomi"
 	"github.com/vmware/govmomi/guest"
 	"github.com/vmware/govmomi/object"
