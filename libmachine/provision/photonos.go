@@ -1,15 +1,11 @@
 package provision
 
 import (
-	"fmt"
-
 	"github.com/rancher/machine/libmachine/auth"
 	"github.com/rancher/machine/libmachine/drivers"
 	"github.com/rancher/machine/libmachine/engine"
 	"github.com/rancher/machine/libmachine/log"
-	"github.com/rancher/machine/libmachine/mcnutils"
 	"github.com/rancher/machine/libmachine/provision/pkgaction"
-	"github.com/rancher/machine/libmachine/provision/serviceaction"
 	"github.com/rancher/machine/libmachine/swarm"
 )
 
@@ -35,4 +31,34 @@ func (provisioner *PhotonOSProvisioner) String() string {
 
 func (provisioner *PhotonOSProvisioner) CompatibleWithHost() bool {
 	return provisioner.OsReleaseInfo.ID == provisioner.OsReleaseID || provisioner.OsReleaseInfo.IDLike == provisioner.OsReleaseID
+}
+
+func (provisioner *PhotonOSProvisioner) Package(name string, action pkgaction.PackageAction) error {
+	return nil
+}
+
+func (provisioner *PhotonOSProvisioner) Provision(swarmOptions swarm.Options, authOptions auth.Options, engineOptions engine.Options) error {
+	provisioner.SwarmOptions = swarmOptions
+	provisioner.AuthOptions = authOptions
+	provisioner.EngineOptions = engineOptions
+
+	if err := provisioner.SetHostname(provisioner.Driver.GetMachineName()); err != nil {
+		return err
+	}
+
+	if err := makeDockerOptionsDir(provisioner); err != nil {
+		return err
+	}
+
+	log.Debugf("Preparing certificates")
+	provisioner.AuthOptions = setRemoteAuthOptions(provisioner)
+
+	log.Debugf("Setting up certificates")
+	if err := ConfigureAuth(provisioner); err != nil {
+		return err
+	}
+
+	log.Debug("Configuring swarm")
+	err := configureSwarm(provisioner, swarmOptions, provisioner.AuthOptions)
+	return err
 }
