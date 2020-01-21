@@ -172,16 +172,9 @@ func (d *Driver) createLegacy() error {
 		spec.VAppConfig = &vApp
 	}
 
-	folders, err := d.datacenter.Folders(d.getCtx())
+	folder, err := d.findFolder()
 	if err != nil {
 		return err
-	}
-	folder := folders.VmFolder
-	if d.Folder != "" {
-		folder, err = d.finder.Folder(d.getCtx(), fmt.Sprintf("%s/%s", folders.VmFolder.InventoryPath, d.Folder))
-		if err != nil {
-			return err
-		}
 	}
 
 	ds, err := d.getDatastore(&spec)
@@ -300,16 +293,9 @@ func (d *Driver) createFromVmName() error {
 		return err
 	}
 
-	folders, err := d.datacenter.Folders(d.getCtx())
+	folder, err := d.findFolder()
 	if err != nil {
 		return err
-	}
-	folder := folders.VmFolder
-	if d.Folder != "" {
-		folder, err = d.finder.Folder(d.getCtx(), fmt.Sprintf("%s/%s", folders.VmFolder.InventoryPath, d.Folder))
-		if err != nil {
-			return err
-		}
 	}
 
 	task, err := vm2Clone.Clone(d.getCtx(), folder, d.MachineName, spec)
@@ -325,6 +311,10 @@ func (d *Driver) createFromVmName() error {
 	// Retrieve the new VM
 	vm := object.NewVirtualMachine(c.Client, info.Result.(types.ManagedObjectReference))
 	if err := d.addNetworks(vm, d.networks); err != nil {
+		return err
+	}
+
+	if err := d.resizeDisk(vm); err != nil {
 		return err
 	}
 
@@ -411,5 +401,10 @@ func (d *Driver) createFromLibraryName() error {
 		return err
 	}
 
-	return d.postCreate(obj.(*object.VirtualMachine))
+	vm := obj.(*object.VirtualMachine)
+	if err := d.resizeDisk(vm); err != nil {
+		return err
+	}
+
+	return d.postCreate(vm)
 }
