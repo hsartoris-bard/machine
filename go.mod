@@ -1,4 +1,4 @@
-module github.com/rancher/machine
+module github.com/hsartoris-bard/machine
 
 go 1.13
 
